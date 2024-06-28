@@ -64,6 +64,7 @@ static void MX_USB_OTG_FS_PCD_Init(void);
 void StartDefaultTask(void *argument);
 
 /* USER CODE BEGIN PFP */
+void Task_action(char message);
 
 /* USER CODE END PFP */
 
@@ -329,6 +330,12 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void Task_action(char message)
+{
+	//HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
+	ITM_SendChar(message);
+	ITM_SendChar('\n');
+}
 
 /* USER CODE END 4 */
 
@@ -343,10 +350,13 @@ void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
+	for(;;)
+	{
+		HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
+		Task_action('1');
+		osDelay(500);
+	}
+	printf("\n\nCore=%d, %d MHz\n", SystemCoreClock, SystemCoreClock / 1000000);
   /* USER CODE END 5 */
 }
 

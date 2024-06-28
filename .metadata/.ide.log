@@ -1,83 +1,17 @@
-2024-06-28 00:00:55,036 [INFO] NvicTabbedPanel:226 - Cannot restore the selected Tab for NVIC
-2024-06-28 00:02:47,278 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 440816832 Bytes (832569344)
-2024-06-28 00:02:52,108 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 547249376 Bytes (832569344)
-2024-06-28 00:03:11,242 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
-2024-06-28 00:03:11,242 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
-2024-06-28 00:03:11,242 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
-2024-06-28 00:03:11,242 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
-2024-06-28 00:03:11,242 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
-2024-06-28 00:03:11,242 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
-2024-06-28 00:03:11,243 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
-2024-06-28 00:03:11,244 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
-2024-06-28 00:03:11,319 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\license.tmp_save
-2024-06-28 00:03:11,398 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\license.tmp
-2024-06-28 00:03:11,428 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\gpio.tmp_save
-2024-06-28 00:03:11,508 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\gpio.tmp
-2024-06-28 00:03:11,582 [WARN] IPConfigManager:2982 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
-2024-06-28 00:03:11,600 [INFO] Middleware:1439 - No code input for Bsp Dependency
-2024-06-28 00:03:11,611 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_inc.tmp_save
-2024-06-28 00:03:11,677 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_inc.tmp
-2024-06-28 00:03:11,686 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_kernelInit.tmp_save
-2024-06-28 00:03:11,742 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_kernelInit.tmp
-2024-06-28 00:03:11,750 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_kernelStart.tmp_save
-2024-06-28 00:03:11,803 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_kernelStart.tmp
-2024-06-28 00:03:11,811 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_typedefs.tmp_save
-2024-06-28 00:03:11,855 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_typedefs.tmp
-2024-06-28 00:03:11,865 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_vars.tmp_save
-2024-06-28 00:03:11,917 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_vars.tmp
-2024-06-28 00:03:11,927 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_pfp.tmp_save
-2024-06-28 00:03:11,978 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_pfp.tmp
-2024-06-28 00:03:11,987 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_obj_creat.tmp_save
-2024-06-28 00:03:12,044 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_obj_creat.tmp
-2024-06-28 00:03:12,055 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_default_thread.tmp_save
-2024-06-28 00:03:12,126 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_default_thread.tmp
-2024-06-28 00:03:12,136 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_threads.tmp_save
-2024-06-28 00:03:12,185 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_threads.tmp
-2024-06-28 00:03:12,194 [INFO] Middleware:1439 - No code input for Bsp Dependency
-2024-06-28 00:03:12,201 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_inc.tmp_save
-2024-06-28 00:03:12,270 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_inc.tmp
-2024-06-28 00:03:12,275 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_kernelInit.tmp_save
-2024-06-28 00:03:12,320 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_kernelInit.tmp
-2024-06-28 00:03:12,325 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_kernelStart.tmp_save
-2024-06-28 00:03:12,364 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_kernelStart.tmp
-2024-06-28 00:03:12,368 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_typedefs.tmp_save
-2024-06-28 00:03:12,411 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_typedefs.tmp
-2024-06-28 00:03:12,423 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_vars.tmp_save
-2024-06-28 00:03:12,468 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_vars.tmp
-2024-06-28 00:03:12,473 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_pfp.tmp_save
-2024-06-28 00:03:12,520 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_pfp.tmp
-2024-06-28 00:03:12,530 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_obj_creat.tmp_save
-2024-06-28 00:03:12,577 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_obj_creat.tmp
-2024-06-28 00:03:12,582 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_default_thread.tmp_save
-2024-06-28 00:03:12,620 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_default_thread.tmp
-2024-06-28 00:03:12,625 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_threads.tmp_save
-2024-06-28 00:03:12,663 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\rtos_threads.tmp
-2024-06-28 00:03:12,675 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Inc\FreeRTOSConfig.h_save
-2024-06-28 00:03:12,759 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Inc\FreeRTOSConfig.h
-2024-06-28 00:03:12,770 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\freertos.c_save
-2024-06-28 00:03:12,837 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\freertos.c
-2024-06-28 00:03:12,855 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\stm32f4xx_it.c_save
-2024-06-28 00:03:12,936 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\stm32f4xx_it.c
-2024-06-28 00:03:12,946 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Inc\stm32f4xx_it.h_save
-2024-06-28 00:03:13,013 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Inc\stm32f4xx_it.h
-2024-06-28 00:03:13,033 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\stm32f4xx_hal_msp.c_save
-2024-06-28 00:03:13,126 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\stm32f4xx_hal_msp.c
-2024-06-28 00:03:13,130 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\system.tmp_save
-2024-06-28 00:03:13,174 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\MXTmpFiles\system.tmp
-2024-06-28 00:03:13,184 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\stm32f4xx_hal_timebase_tim.c_save
-2024-06-28 00:03:13,250 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\stm32f4xx_hal_timebase_tim.c
-2024-06-28 00:03:13,264 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Inc\stm32f4xx_hal_conf.h_save
-2024-06-28 00:03:13,336 [INFO] CodeEngine:335 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Inc\stm32f4xx_hal_conf.h
-2024-06-28 00:03:13,360 [WARN] IPConfigManager:2982 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
-2024-06-28 00:03:13,364 [WARN] IPConfigManager:3513 - IP not found : USB_OTG
-2024-06-28 00:03:13,364 [WARN] CodeGenerator:3951 - IP not found : null
-2024-06-28 00:03:13,378 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Inc\main.h_save
-2024-06-28 00:03:13,453 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Inc\main.h
-2024-06-28 00:03:13,465 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\main.c_save
-2024-06-28 00:03:13,568 [INFO] CodeEngine:279 - Generated code: C:\Users\DaehwanKim\STM32CubeIDE\workspace_1.15.1\S\Core\Src\main.c
-2024-06-28 00:03:13,913 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 225mS.
-2024-06-28 00:03:13,917 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
-2024-06-28 00:03:13,972 [INFO] ConfigFileManager:1503 - The Die is : DIE421
-2024-06-28 00:03:14,904 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 987mS.
-2024-06-28 00:03:14,905 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
-2024-06-28 00:03:14,910 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-06-28 00:54:59,690 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2024-06-28 00:55:21,091 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2024-06-28 00:55:26,069 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2024-06-28 00:56:10,420 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2024-06-28 00:57:01,535 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2024-06-28 00:57:02,474 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2024-06-28 00:57:07,622 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2024-06-28 00:57:55,797 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2024-06-28 00:58:04,257 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2024-06-28 00:58:08,560 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2024-06-28 00:58:10,023 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2024-06-28 00:59:26,335 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2024-06-28 00:59:34,783 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2024-06-28 01:02:18,436 [INFO] NvicTabbedPanel:226 - Cannot restore the selected Tab for NVIC
+2024-06-28 01:02:51,484 [INFO] NvicTabbedPanel:226 - Cannot restore the selected Tab for NVIC
+2024-06-28 01:16:02,450 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2024-06-28 01:16:07,019 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
